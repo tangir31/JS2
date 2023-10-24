@@ -7,10 +7,10 @@ name.forEach((имя) => {
 });
 
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const even = [];
-const odds = [];
+let even = [];
+let odds = [];
 
 numbers.forEach(number => {
     if (number % 2 === 0) {
