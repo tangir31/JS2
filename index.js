@@ -14,7 +14,7 @@ let odds = [];
 
 numbers.forEach(number => {
     if (number % 2 === 0) {
-        even.push(number)
-        odds.push(number);
+        console.log(number)
+        console.log(number);
   }
 });
